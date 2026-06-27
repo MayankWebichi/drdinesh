@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Dinesh Choudhary | Surgical Gastroenterologist — Jodhpur</title>
+    <meta name="description" content="Dr. Dinesh Choudhary — Leading Surgical Gastroenterologist in Jodhpur, Rajasthan. Expert in laparoscopic surgery, liver care & GI oncology. 4.9★ · 1500+ patients. Book consultation today." />
+    <meta name="keywords" content="Dr Dinesh Choudhary, Gastroenterologist Jodhpur, Laparoscopic Surgery Jodhpur, Liver Specialist Jodhpur, GI Surgeon Rajasthan, Endoscopy Jodhpur" />
+    <meta name="author" content="Dr. Dinesh Choudhary" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://drdinesh.vercel.app/" />
+
+    <!-- ===== Open Graph (WhatsApp, Facebook, LinkedIn) ===== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dr. Dinesh Choudhary" />
+    <meta property="og:url" content="https://drdinesh.vercel.app/" />
+    <meta property="og:title" content="Dr. Dinesh Choudhary | Surgical Gastroenterologist — Jodhpur" />
+    <meta property="og:description" content="Expert digestive health & laparoscopic surgery in Jodhpur. 4.9★ rated · 1500+ happy patients · Book a consultation now." />
+    <meta property="og:image" content="https://images.jdmagicbox.com/comp/jodhpur/a7/0291px291.x291.230117051456.x5a7/catalogue/dr-dinesh-choudhary-shastri-nagar-jodhpur-gastroenterologists-87vzws7vct.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dr. Dinesh Choudhary — Surgical Gastroenterologist, Jodhpur" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- ===== Twitter / X Card ===== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@drdineshchoudhary" />
+    <meta name="twitter:creator" content="@drdineshchoudhary" />
+    <meta name="twitter:url" content="https://drdinesh.vercel.app/" />
+    <meta name="twitter:title" content="Dr. Dinesh Choudhary | Surgical Gastroenterologist — Jodhpur" />
+    <meta name="twitter:description" content="Expert digestive health & laparoscopic surgery in Jodhpur. 4.9★ rated · 1500+ happy patients · Book a consultation now." />
+    <meta name="twitter:image" content="https://images.jdmagicbox.com/comp/jodhpur/a7/0291px291.x291.230117051456.x5a7/catalogue/dr-dinesh-choudhary-shastri-nagar-jodhpur-gastroenterologists-87vzws7vct.jpg" />
+    <meta name="twitter:image:alt" content="Dr. Dinesh Choudhary — Surgical Gastroenterologist, Jodhpur" />
+
+    <!-- ===== Structured Data (Google Rich Results) ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr. Dinesh Choudhary",
+      "description": "Surgical Gastroenterologist in Jodhpur, Rajasthan. Expert in laparoscopic surgery, liver care and GI oncology.",
+      "url": "https://drdinesh.vercel.app/",
+      "image": "https://images.jdmagicbox.com/comp/jodhpur/a7/0291px291.x291.230117051456.x5a7/catalogue/dr-dinesh-choudhary-shastri-nagar-jodhpur-gastroenterologists-87vzws7vct.jpg",
+      "telephone": "+91-9001392683",
+      "medicalSpecialty": "Gastroenterology",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "A-235, Shastri Nagar, Near Shastri Circle",
+        "addressLocality": "Jodhpur",
+        "addressRegion": "Rajasthan",
+        "postalCode": "342003",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "14:00",
+        "closes": "20:00"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1500"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ========== PRELOADER ========== -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <span class="preloader-line"></span>
+            <p class="preloader-text">Dr. Dinesh Choudhary</p>
+        </div>
+    </div>
+
+    <!-- ========== CURSOR ========== -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- ========== HEADER ========== -->
+    <header class="site-header" id="siteHeader">
+        <div class="header-wrap">
+            <a href="#hero" class="logo">
+                <span class="logo-name">Dr. Dinesh Choudhary</span>
+
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="desk-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#conditions" class="nav-link">Conditions</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header-right">
+                <a href="tel:+919001392683" class="btn-pill btn-call" id="headerCallBtn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.5 1.18 2 2 0 012.5 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.14 6.14l1.28-1.28a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                    </svg>
+                    Call Now
+                </a>
+                <!-- Hamburger -->
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== DRAWER NAV ========== -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <nav class="drawer" id="drawer" aria-hidden="true">
+        <button class="drawer-close" id="drawerClose" aria-label="Close menu">✕</button>
+        <div class="drawer-inner">
+            <div class="drawer-brand">
+                <p class="drawer-name">Dr. Dinesh Choudhary</p>
+                <p class="drawer-spec">Surgical Gastroenterologist</p>
+            </div>
+            <ul class="drawer-links">
+                <li><a href="#hero" class="drawer-link" data-num="01">Home</a></li>
+                <li><a href="#about" class="drawer-link" data-num="02">About</a></li>
+                <li><a href="#services" class="drawer-link" data-num="03">Services</a></li>
+                <li><a href="#conditions" class="drawer-link" data-num="04">Conditions</a></li>
+                <li><a href="#gallery" class="drawer-link" data-num="05">Gallery</a></li>
+                <li><a href="#testimonials" class="drawer-link" data-num="06">Reviews</a></li>
+                <li><a href="#contact" class="drawer-link" data-num="07">Contact</a></li>
+            </ul>
+            <div class="drawer-cta-group">
+                <a href="tel:+919001392683" class="btn-pill btn-call full-w">📞 Call: +91 90013 92683</a>
+                <a href="https://wa.me/919001392683" target="_blank" class="btn-pill btn-wa full-w">💬 WhatsApp Now</a>
+            </div>
+            <div class="drawer-hours">
+                <span>Mon – Sat</span>
+                <span class="hours-time">2 PM – 8 PM</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-tag-row reveal-up" data-delay="0">
+                    <span class="hero-badge">⭐ 4.9 · 1500+ Reviews</span>
+                    <span class="hero-badge">Jodhpur, Rajasthan</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="line"><span class="li">The Art Of</span></span>
+                    <span class="line serif-line"><span class="li">Healing</span></span>
+                    <span class="line"><span class="li">The Gut.</span></span>
+                </h1>
+                <p class="hero-sub reveal-up" data-delay="0.4">Surgical precision meets compassionate care. Western
+                    Rajasthan's most trusted gastroenterologist.</p>
+                <div class="hero-cta-group reveal-up" data-delay="0.6">
+                    <a href="tel:+919001392683" class="btn-pill btn-call btn-lg">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.5 1.18 2 2 0 012.5 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.14 6.14l1.28-1.28a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                        </svg>
+                        Call Now
+                    </a>
+                    <a href="https://wa.me/919001392683" target="_blank" class="btn-pill btn-wa btn-lg">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                        </svg>
+                        WhatsApp
+                    </a>
+                </div>
+                <div class="hero-trust-row reveal-up" data-delay="0.8">
+                    <div class="trust-item">
+                        <strong>12+</strong><span>Years Experience</span>
+                    </div>
+                    <div class="trust-sep"></div>
+                    <div class="trust-item">
+                        <strong>5000+</strong><span>Surgeries Done</span>
+                    </div>
+                    <div class="trust-sep"></div>
+                    <div class="trust-item">
+                        <strong>KGMU</strong><span>Lucknow Trained</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right reveal-image">
+                <div class="hero-img-frame">
+                    <img src="images/dr image.webp" alt="Dr. Dinesh Choudhary" class="hero-photo" />
+                    <div class="hero-img-badge">
+                        <svg class="badge-svg" viewBox="0 0 120 120">
+                            <defs>
+                                <path id="c" d="M60,60 m-42,0 a42,42 0 1,1 84,0 a42,42 0 1,1 -84,0" />
+                            </defs>
+                            <text font-size="11" fill="#b7935b">
+                                <textPath href="#c">MCh SURGICAL GASTROENTEROLOGY • JODHPUR •</textPath>
+                            </text>
+                        </svg>
+                        <div class="badge-center">★</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ========== MARQUEE TICKER ========== -->
+    <div class="marquee-strip">
+        <div class="marquee-track">
+            <span>Laparoscopic Surgery</span><span class="sep">✦</span>
+            <span>Liver & Pancreas Care</span><span class="sep">✦</span>
+            <span>GI Oncology</span><span class="sep">✦</span>
+            <span>Endoscopy & Colonoscopy</span><span class="sep">✦</span>
+            <span>Gallstone Removal</span><span class="sep">✦</span>
+            <span>Hernia Repair</span><span class="sep">✦</span>
+            <span>Fatty Liver Treatment</span><span class="sep">✦</span>
+            <span>Inflammatory Bowel Disease</span><span class="sep">✦</span>
+            <!-- Duplicate for seamless loop -->
+            <span>Laparoscopic Surgery</span><span class="sep">✦</span>
+            <span>Liver & Pancreas Care</span><span class="sep">✦</span>
+            <span>GI Oncology</span><span class="sep">✦</span>
+            <span>Endoscopy & Colonoscopy</span><span class="sep">✦</span>
+            <span>Gallstone Removal</span><span class="sep">✦</span>
+            <span>Hernia Repair</span><span class="sep">✦</span>
+            <span>Fatty Liver Treatment</span><span class="sep">✦</span>
+            <span>Inflammatory Bowel Disease</span><span class="sep">✦</span>
+        </div>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img-col">
+                    <div class="about-img-frame reveal-image">
+                        <img src="images/doctor image.jpg" alt="Dr. Dinesh Choudhary in clinic" />
+                        <div class="about-img-stat">
+                            <span class="ab-num">4.9★</span>
+                            <span class="ab-lbl">Google Rating</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text-col">
+                    <span class="section-label reveal-up">About the Doctor</span>
+                    <h2 class="section-heading reveal-up">Excellence in<br><em>Digestive Health</em></h2>
+                    <div class="about-body reveal-up">
+                        <p>Dr. Dinesh Choudhary is a highly skilled Surgical Gastroenterologist based in Jodhpur,
+                            Rajasthan, bringing world-class gastrointestinal and laparoscopic care to Western India.
+                            Trained at the prestigious King George's Medical University (KGMU), Lucknow, he holds an MCh
+                            in Surgical Gastroenterology — one of the most rigorous specializations in medicine.</p>
+                        <p>With over 12 years of experience and 5000+ successful procedures, Dr. Choudhary is known for
+                            his precision-driven surgical outcomes and deeply compassionate patient-first approach.</p>
+                    </div>
+                    <div class="about-creds reveal-up">
+                        <div class="cred-pill">MBBS</div>
+                        <div class="cred-pill">MS (Surgery)</div>
+                        <div class="cred-pill">MCh (Surgical Gastroenterology)</div>
+                        <div class="cred-pill">KGMU Lucknow</div>
+                    </div>
+                    <div class="about-cta reveal-up">
+                        <a href="https://wa.me/919001392683" target="_blank" class="btn-pill btn-wa">Book Consultation
+                            via WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services" id="services">
+        <div class="services-bg-text" aria-hidden="true">SURGERY</div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label reveal-up">Clinical Expertise</span>
+                <h2 class="section-heading reveal-up">What We<br><em>Treat & Do</em></h2>
+            </div>
+            <ul class="service-list">
+                <li class="service-row" data-index="01">
+                    <div class="service-row-left">
+                        <span class="sr-num">01</span>
+                        <div>
+                            <h3 class="sr-title">Laparoscopic Surgery</h3>
+                            <p class="sr-desc">Minimally invasive keyhole procedures for gallbladder, hernias &
+                                abdominal conditions with faster recovery.</p>
+                        </div>
+                    </div>
+                    <span class="sr-arrow">→</span>
+                </li>
+                <li class="service-row" data-index="02">
+                    <div class="service-row-left">
+                        <span class="sr-num">02</span>
+                        <div>
+                            <h3 class="sr-title">Liver & Pancreas Care</h3>
+                            <p class="sr-desc">Expert diagnosis and management of jaundice, cirrhosis, fatty liver,
+                                pancreatitis and biliary disorders.</p>
+                        </div>
+                    </div>
+                    <span class="sr-arrow">→</span>
+                </li>
+                <li class="service-row" data-index="03">
+                    <div class="service-row-left">
+                        <span class="sr-num">03</span>
+                        <div>
+                            <h3 class="sr-title">GI Endoscopy & Colonoscopy</h3>
+                            <p class="sr-desc">Advanced state-of-the-art diagnostic and therapeutic gastrointestinal
+                                imaging procedures.</p>
+                        </div>
+                    </div>
+                    <span class="sr-arrow">→</span>
+                </li>
+                <li class="service-row" data-index="04">
+                    <div class="service-row-left">
+                        <span class="sr-num">04</span>
+                        <div>
+                            <h3 class="sr-title">GI Oncology Surgery</h3>
+                            <p class="sr-desc">Surgical management and screening for stomach, colon, pancreatic and
+                                esophageal cancers.</p>
+                        </div>
+                    </div>
+                    <span class="sr-arrow">→</span>
+                </li>
+                <li class="service-row" data-index="05">
+                    <div class="service-row-left">
+                        <span class="sr-num">05</span>
+                        <div>
+                            <h3 class="sr-title">Inflammatory Bowel Disease</h3>
+                            <p class="sr-desc">Comprehensive treatment of Crohn's disease, ulcerative colitis and
+                                related chronic gut conditions.</p>
+                        </div>
+                    </div>
+                    <span class="sr-arrow">→</span>
+                </li>
+                <li class="service-row" data-index="06">
+                    <div class="service-row-left">
+                        <span class="sr-num">06</span>
+                        <div>
+                            <h3 class="sr-title">Hernia & Gallstone Surgery</h3>
+                            <p class="sr-desc">Precision laparoscopic repair and removal, with minimal hospital stay and
+                                post-op discomfort.</p>
+                        </div>
+                    </div>
+                    <span class="sr-arrow">→</span>
+                </li>
+            </ul>
+            <div class="services-cta reveal-up">
+                <a href="tel:+919001392683" class="btn-pill btn-call btn-lg">📞 Consult Now — Free Advice</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONDITIONS ========== -->
+    <section class="conditions" id="conditions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label reveal-up">Conditions Treated</span>
+                <h2 class="section-heading reveal-up">Digestive Problems<br><em>We Solve</em></h2>
+            </div>
+            <div class="conditions-grid">
+                <div class="condition-card reveal-card">
+                    <div class="condition-icon">🫀</div>
+                    <h4>Acid Reflux / GERD</h4>
+                    <p>Chronic heartburn, regurgitation and esophageal damage from stomach acid.</p>
+                </div>
+                <div class="condition-card reveal-card">
+                    <div class="condition-icon">🔶</div>
+                    <h4>Gallstones</h4>
+                    <p>Painful gallstone disease requiring laparoscopic cholecystectomy.</p>
+                </div>
+                <div class="condition-card reveal-card">
+                    <div class="condition-icon">🟡</div>
+                    <h4>Jaundice & Liver Disease</h4>
+                    <p>Hepatitis, cirrhosis, fatty liver and complex biliary tree disorders.</p>
+                </div>
+                <div class="condition-card reveal-card">
+                    <div class="condition-icon">🔴</div>
+                    <h4>Colon & Rectal Issues</h4>
+                    <p>Colorectal cancer, hemorrhoids, fissures, and inflammatory conditions.</p>
+                </div>
+                <div class="condition-card reveal-card">
+                    <div class="condition-icon">⚪</div>
+                    <h4>Hernia</h4>
+                    <p>Inguinal, umbilical and incisional hernias treated laparoscopically.</p>
+                </div>
+                <div class="condition-card reveal-card">
+                    <div class="condition-icon">🟤</div>
+                    <h4>Pancreatitis</h4>
+                    <p>Acute and chronic pancreatitis with complex surgical management.</p>
+                </div>
+                <div class="condition-card reveal-card">
+                    <div class="condition-icon">🟢</div>
+                    <h4>IBS / IBD</h4>
+                    <p>Irritable bowel syndrome, Crohn's disease and ulcerative colitis.</p>
+                </div>
+                <div class="condition-card reveal-card">
+                    <div class="condition-icon">🔵</div>
+                    <h4>GI Bleeding</h4>
+                    <p>Upper and lower gastrointestinal bleeding — emergency and elective care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GALLERY / MEDIA ========== -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label reveal-up">In The Media</span>
+                <h2 class="section-heading reveal-up">Press &<br><em>Recognition</em></h2>
+            </div>
+        </div>
+        <div class="gallery-slider-wrap">
+            <div class="gallery-slider" id="gallerySlider">
+                <div class="gallery-slide">
+                    <div class="gallery-img">
+                        <img src="https://images.jdmagicbox.com/comp/jodhpur/a7/0291px291.x291.230117051456.x5a7/catalogue/dr-dinesh-choudhary-shastri-nagar-jodhpur-gastroenterologists-87vzws7vct.jpg"
+                            alt="Dr Dinesh Choudhary Clinic Photo 1" loading="lazy" />
+                    </div>
+                    <p class="gallery-cap">Clinic & Practice</p>
+                </div>
+                <div class="gallery-slide">
+                    <div class="gallery-img">
+                        <img src="https://images.jdmagicbox.com/comp/jodhpur/a7/0291px291.x291.230117051456.x5a7/catalogue/dr-dinesh-choudhary-shastri-nagar-jodhpur-gastroenterologists-24kntbbast.jpg"
+                            alt="Dr Dinesh Choudhary Clinic Photo 2" loading="lazy" />
+                    </div>
+                    <p class="gallery-cap">Medical Excellence</p>
+                </div>
+                <div class="gallery-slide">
+                    <div class="gallery-img">
+                        <img src="https://images.jdmagicbox.com/comp/jodhpur/a7/0291px291.x291.230117051456.x5a7/catalogue/dr-dinesh-choudhary-shastri-nagar-jodhpur-gastroenterologists-7jcg0ydw0v.jpg"
+                            alt="Dr Dinesh Choudhary Clinic Photo 3" loading="lazy" />
+                    </div>
+                    <p class="gallery-cap">Patient Care</p>
+                </div>
+                <div class="gallery-slide">
+                    <div class="gallery-img">
+                        <img src="https://images.jdmagicbox.com/comp/jodhpur/a7/0291px291.x291.230117051456.x5a7/catalogue/dr-dinesh-choudhary-shastri-nagar-jodhpur-gastroenterologists-3higeqyku9.jpg"
+                            alt="Dr Dinesh Choudhary Clinic Photo 4" loading="lazy" />
+                    </div>
+                    <p class="gallery-cap">Clinical Achievement</p>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn" id="slidePrev" aria-label="Previous">←</button>
+                <div class="slider-dots" id="sliderDots"></div>
+                <button class="slider-btn" id="slideNext" aria-label="Next">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== STATS ========== -->
+    <section class="stats-section">
+        <div class="stats-bg-orb"></div>
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-block reveal-up">
+                    <span class="stat-big" data-count="12">0</span><span class="stat-plus">+</span>
+                    <p>Years of Practice</p>
+                </div>
+                <div class="stat-block reveal-up" data-delay="0.1">
+                    <span class="stat-big" data-count="5000">0</span><span class="stat-plus">+</span>
+                    <p>Surgeries Performed</p>
+                </div>
+                <div class="stat-block reveal-up" data-delay="0.2">
+                    <span class="stat-big" data-count="1500">0</span><span class="stat-plus">+</span>
+                    <p>Happy Patients</p>
+                </div>
+                <div class="stat-block reveal-up" data-delay="0.3">
+                    <span class="stat-big">4.9</span><span class="stat-plus">★</span>
+                    <p>Google Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label reveal-up">Patient Reviews</span>
+                <h2 class="section-heading reveal-up">Words From<br><em>Our Patients</em></h2>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card reveal-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"Dr. Dinesh sahab ne meri gallbladder surgery itni achhi ki ke mujhe laghe hi nahi ke surgery
+                        hui. 2 din mein ghar aa gaye. Bahut gentle and caring doctor hain."</p>
+                    <div class="review-author"><strong>Ramesh Kumar</strong><span>Gallbladder Surgery</span></div>
+                </div>
+                <div class="review-card reveal-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"My father had jaundice and the treatment was outstanding. The doctor explained everything
+                        patiently and the care team was excellent. Highly recommended in Jodhpur."</p>
+                    <div class="review-author"><strong>Priya Sharma</strong><span>Liver Treatment</span></div>
+                </div>
+                <div class="review-card reveal-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"Hernia surgery gaye the, seedha Dr. Choudhary se mila. Operation ke baad koi takleef nahi hua. 3
+                        din mein kaam pe wapas gaye. Outstanding surgeon."</p>
+                    <div class="review-author"><strong>Mohan Singh</strong><span>Hernia Repair</span></div>
+                </div>
+                <div class="review-card reveal-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"Colonoscopy and treatment for IBD was done very professionally. Doctor spent time explaining the
+                        condition and follow-up care was excellent. God bless him!"</p>
+                    <div class="review-author"><strong>Sunita Joshi</strong><span>IBD Treatment</span></div>
+                </div>
+            </div>
+            <div class="reviews-cta reveal-up">
+                <a href="https://wa.me/919001392683?text=Hello%20Dr.%20Dinesh%2C%20I%20would%20like%20to%20book%20a%20consultation."
+                    target="_blank" class="btn-pill btn-wa btn-lg">Book Your Consultation →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT / FOOTER ========== -->
+    <footer class="footer" id="contact">
+        <div class="footer-orb"></div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand-col">
+                    <h2 class="footer-big-title">Let's <em>Talk.</em></h2>
+                    <p class="footer-tagline">Book a consultation. Get expert guidance.<br>Your gut health deserves the
+                        best.</p>
+                    <div class="footer-cta-row">
+                        <a href="tel:+919001392683" class="btn-pill btn-call btn-lg">📞 +91 90013 92683</a>
+                        <a href="https://wa.me/919001392683" target="_blank" class="btn-pill btn-wa btn-lg">💬
+                            WhatsApp</a>
+                    </div>
+                </div>
+                <div class="footer-info-col">
+                    <div class="footer-block">
+                        <h5>Clinic Address</h5>
+                        <p>A-235, Shastri Nagar,<br>Near Shastri Circle,<br>Jodhpur, Rajasthan — 342003</p>
+                    </div>
+                    <div class="footer-block">
+                        <h5>Clinic Hours</h5>
+                        <p>Monday – Saturday<br>2:00 PM – 8:00 PM</p>
+                    </div>
+                    <div class="footer-block">
+                        <h5>Qualifications</h5>
+                        <p>MBBS · MS (Surgery)<br>MCh Surgical Gastroenterology<br>KGMU Lucknow</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Dr. Dinesh Choudhary. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://wa.me/919001392683" target="_blank" class="social-link" aria-label="WhatsApp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                        </svg>
+                    </a>
+                    <a href="tel:+919001392683" class="social-link" aria-label="Call">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.5 1.18 2 2 0 012.5 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.14 6.14l1.28-1.28a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Bubble -->
+    <a href="https://wa.me/919001392683" target="_blank" class="wa-float" aria-label="Chat on WhatsApp">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
